@@ -71,17 +71,18 @@ export default function Header() {
     };
 
     return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" sx={{ backgroundColor: "#F6F6F6", color: "#545E72", border: "0.4px solid #707070" }}>
+        <Box sx={{ flexGrow: 1}}>
+            <AppBar position="static" sx={{ backgroundColor: "#F6F6F6", color: "#545E72", border: "0.4px solid #707070"}}>
                 <Container maxWidth="xl">
                     <Toolbar>
                         <Typography
                             variant="h6"
-                            noWrap
                             component="div"
                             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
                         >
-                            <img src={logo} alt="logo" />
+                            <Link to="/anasayfa">
+                                <img src={logo} style={{ width: '100%', height: '100%',minWidth:"80px" }} alt="logo" />
+                            </Link>
                         </Typography>
 
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -130,7 +131,9 @@ export default function Header() {
                             component="div"
                             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
                         >
-                            <img src={logo} alt="logo" />
+                            <Link to="/anasayfa">
+                                <img src={logo} style={{ width: '100%', height: '100%' }} alt="logo" />
+                            </Link>
                         </Typography>
                         <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                             {pages.map((page) => (

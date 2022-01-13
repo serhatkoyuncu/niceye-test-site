@@ -3,7 +3,51 @@ import React from 'react'
 function About() {
     return (
         <div>
-            Hakkımızda
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
+            <div>Hakkımızda</div>
         </div>
     )
 }
