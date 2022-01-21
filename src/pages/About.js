@@ -40,14 +40,6 @@ function About() {
             <div>Hakkımızda</div>
             <div>Hakkımızda</div>
             <div>Hakkımızda</div>
-            <div>Hakkımızda</div>
-            <div>Hakkımızda</div>
-            <div>Hakkımızda</div>
-            <div>Hakkımızda</div>
-            <div>Hakkımızda</div>
-            <div>Hakkımızda</div>
-            <div>Hakkımızda</div>
-            <div>Hakkımızda</div>
         </div>
     )
 }
