@@ -80,7 +80,7 @@ export default function Header() {
                             component="div"
                             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
                         >
-                            <Link to="/anasayfa">
+                            <Link to="/">
                                 <img src={logo} style={{ width: '100%', height: '100%',minWidth:"80px" }} alt="logo" />
                             </Link>
                         </Typography>
@@ -117,7 +117,7 @@ export default function Header() {
                                 {pages.map((page) => (
                                     <MenuItem key={page} onClick={handleCloseNavMenu}>
                                         <Typography textAlign="center">
-                                            <Link to={`/${page.toLowerCase()}`} style={{ textDecoration: 'none', color: '#545E72' }}>
+                                            <Link to={page==="Anasayfa" ? "/" : `/${page.toLowerCase()}`} style={{ textDecoration: 'none', color: '#545E72' }}>
                                                 {page.toLocaleUpperCase()}
                                             </Link>
                                         </Typography>
@@ -142,7 +142,7 @@ export default function Header() {
                                     onClick={handleCloseNavMenu}
                                     sx={{ my: 2, color: '#545E72', display: 'block' }}
                                 >
-                                    <Link to={`/${page.toLowerCase()}`} style={{ textDecoration: 'none', color: '#545E72' }}>
+                                    <Link to={page==="Anasayfa" ? "/" : `/${page.toLowerCase()}`} style={{ textDecoration: 'none', color: '#545E72' }}>
                                         {page.toLocaleUpperCase()}
                                     </Link>
                                 </Button>

@@ -18,7 +18,7 @@ function AppRouter() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/anasayfa">
+        <Route exact path="/">
           <Home/>
         </Route>
         <Route exact path="/hakkımızda">
