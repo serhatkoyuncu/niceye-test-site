@@ -1,7 +1,8 @@
 import React from 'react';
-import HomeCard from '../components/HomeCard';
-import HomeInfo from '../components/HomeInfo';
-import HomeSlider from '../components/HomeSlider';
+import HomeCard from '../components/HomeComponents/HomeCard';
+import HomeInfo from '../components/HomeComponents/HomeInfo';
+import HomePartner from '../components/HomeComponents/HomePartner';
+import HomeSlider from '../components/HomeComponents/HomeSlider';
 
 export default function Home() {
   return( 
@@ -9,5 +10,6 @@ export default function Home() {
       <HomeSlider/>
       <HomeCard/>
       <HomeInfo/>
+      <HomePartner/>
   </div>
   )}

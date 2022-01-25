@@ -1,13 +1,13 @@
 import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import intel from '../assets/intel.png';
-import hp from '../assets/hp.png';
-import cisco from '../assets/cisco.png';
-import microsoft from '../assets/microsoft.png';
-import vidizayn from '../assets/vidizayn.png';
-import ofisim from '../assets/ofisim.png';
-import virtuatic from '../assets/virtuatic.png';
+import intel from '../../assets/intel.png';
+import hp from '../../assets/hp.png';
+import cisco from '../../assets/cisco.png';
+import microsoft from '../../assets/microsoft.png';
+import vidizayn from '../../assets/vidizayn.png';
+import ofisim from '../../assets/ofisim.png';
+import virtuatic from '../../assets/virtuatic.png';
 ;
 
 

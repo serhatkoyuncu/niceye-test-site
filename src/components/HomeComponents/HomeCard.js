@@ -6,10 +6,10 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Grid } from '@mui/material';
-import fiber from '../assets/fiber.png';
-import application from '../assets/application.png';
-import icon from '../assets/icon.png';
-import onlineconference from '../assets/online-conference.png';
+import fiber from '../../assets/fiber.png';
+import application from '../../assets/application.png';
+import icon from '../../assets/icon.png';
+import onlineconference from '../../assets/online-conference.png';
 
 const cards = [
     {
