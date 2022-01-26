@@ -43,7 +43,7 @@ export default function HeaderPopUp({handleNotMouseOver }) {
         // console.log('cozum :>> ', cozum);
     }
     return (
-        <Box sx={{ flexGrow: 1, mt: 10 }} onMouseLeave={handleNotMouseOver}>
+        <Box sx={{ flexGrow: 1, mt: 10}} onMouseLeave={handleNotMouseOver}>
             <Grid container spacing={2}>
                 <Grid item xs={3} sx={{ backgroundColor: "#F2F4F5", height: "45vh" }}>
                     {data.map((item) => (
